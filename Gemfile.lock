@@ -154,6 +154,12 @@ GEM
     nokogiri (1.16.6)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.16.6-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.6-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.6-x86_64-linux)
+      racc (~> 1.4)
     public_suffix (6.0.0)
     racc (1.8.0)
     rack (2.2.9)
@@ -188,6 +194,10 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
     rake (13.2.1)
+    sorbet (0.5.11631)
+      sorbet-static (= 0.5.11631)
+    sorbet-static (0.5.11631-universal-darwin)
+    sorbet-static (0.5.11631-x86_64-linux)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -220,6 +230,7 @@ DEPENDENCIES
   azure-storage-blob!
   json-schema!
   rails (= 6.1.7)
+  sorbet (= 0.5.11631)
   swagger-ui_rails!
   swagger-ui_rails2!
   tmp!
@@ -268,6 +279,9 @@ CHECKSUMS
   net-smtp (0.5.0) sha256=5fc0415e6ea1cc0b3dfea7270438ec22b278ca8d524986a3ae4e5ae8d087b42a
   nio4r (2.7.3) sha256=54b94cdd4b8f9dc39aaad5f699e97afae13efb44f2b180a6e724df76105ff604
   nokogiri (1.16.6) sha256=935fe4dd67d4377f4a05002acb1ffbadbcae265ea8e7869fc40e3a8121f3e1ef
+  nokogiri (1.16.6-arm64-darwin) sha256=43e8a783697c65413408a4923b5c2ed6bea6632cfdab4da220446b601733fa4b
+  nokogiri (1.16.6-x86_64-darwin) sha256=92fa413d866baf9b609f17558ecfbcf950d5373213babcf4ce11d7eaed4b21cf
+  nokogiri (1.16.6-x86_64-linux) sha256=769bd2c14ad76dd5a7e14c867741cf2e3b8c25626a34f40aee7b0b998b8de820
   public_suffix (6.0.0) sha256=d2c8e12e076813f8fca0307205c088c6903adc70b92c65ab22479dfa9bc0a89e
   racc (1.8.0) sha256=09349a65c37c4fe710a435f25c9f1652e39f29ad6b1fa08d4a8d30c0553d3a08
   rack (2.2.9) sha256=fd6301a97a1c1e955e68f85c861fcb1cde6145a32c532e1ea321a72ff8cc4042
@@ -277,6 +291,9 @@ CHECKSUMS
   rails-html-sanitizer (1.6.0) sha256=86e9f19d2e6748890dcc2633c8945ca45baa08a1df9d8c215ce17b3b0afaa4de
   railties (6.1.7) sha256=5df0960e55db0edd305de26f7a3cf7da695c035cd6cd5bf8c8c79df9338e9fc7
   rake (13.2.1) sha256=46cb38dae65d7d74b6020a4ac9d48afed8eb8149c040eccf0523bec91907059d
+  sorbet (0.5.11631) sha256=7566dbe4abb2fec1a9aa9b94bc0ffd56dfece07d35687827ac33adff140e26a2
+  sorbet-static (0.5.11631-universal-darwin) sha256=1dbc8e15d3d7d5b830a711730425180ef7c0967c28cd830167840a8f5db13442
+  sorbet-static (0.5.11631-x86_64-linux) sha256=51191b51bfa26a7297c95859836f3fcfc40d65e1d59006a3c668cfde350d9069
   sprockets (4.2.1) sha256=951b13dd2f2fcae840a7184722689a803e0ff9d2702d902bd844b196da773f97
   sprockets-rails (3.5.1) sha256=c44626cb3887a1a8b572ca258685db33b4ebd041aa73428a716eac444ee5ef48
   swagger-ui_rails (0.1.7)
